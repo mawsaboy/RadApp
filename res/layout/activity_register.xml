@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+    
+ 	<ImageView
+ android:layout_width="fill_parent"
+ android:layout_height="180dip"
+ android:orientation="vertical"
+ android:background="@drawable/reg"/>
+ 	
+ 	<EditText
+ 	    android:id="@+id/editText1"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="38dp"
+ 	    android:layout_marginTop="245dp"
+ 	    android:background="#000000"
+ 	    android:ems="10"
+ 	    android:gravity="center_horizontal"
+ 	    android:inputType="textPersonName"
+ 	    android:hint="Create a Username"
+ 	    android:textColor="#33b5e5" >
+
+ 	    <requestFocus />
+ 	</EditText>
+ 	
+ 	<EditText
+ 	    android:id="@+id/editText2"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="38dp"
+ 	    android:layout_marginTop="290dp"
+ 	    android:background="#000000"
+ 	    android:ems="10"
+ 	    android:gravity="center_horizontal"
+ 	    android:inputType="textPersonName"
+ 	    android:hint="Create a Password"
+ 	    android:textColor="#33b5e5" >
+ 	    
+ 	     </EditText>
+ 	
+ 	<EditText
+ 	    android:id="@+id/editText3"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="38dp"
+ 	    android:ems="10"
+ 	    android:gravity="center_horizontal"
+ 	    android:inputType="textEmailAddress"
+ 	    android:hint="Enter Email"
+ 	    android:textColor="#33b5e5" 
+ 	    android:layout_marginTop="335dp"
+ 	    android:background="#000000"/>
+
+ 	
+
+ 	<ImageButton
+ 	    android:layout_width="80dip"
+ 	    android:layout_height="80dip"
+ 	    android:layout_gravity="center"
+ 	    android:background="@drawable/shape"
+ 	    android:layout_marginBottom="55dp" />
+
+ 	<EditText
+ 	    android:id="@+id/editText4"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_marginTop="390dp"
+ 	    android:ems="10"
+ 	    android:gravity="center_horizontal"
+ 	    android:inputType="textMultiLine"
+ 	    android:text="By tapping the arrow, you are indicating that you have read the Privacy Policy and agree to the Terms of Service."
+ 	    android:textColor="#33b5e5"
+ 	    android:background="#000000" />
+
+</FrameLayout>
+	

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#282828"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+	
+    <TextView
+        android:id="@+id/settingsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textColor="#FFFFFF"
+        android:typeface="sans"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"/>
+    
+   <ImageView 
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrowright"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/image1"/>
+
+   
+</RelativeLayout>
