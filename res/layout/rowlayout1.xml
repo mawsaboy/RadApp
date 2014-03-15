@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/meme1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="60dp"
+        android:src="@drawable/avatar_dark" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/meme1"
+        android:layout_toRightOf="@+id/meme1"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:maxLines="5"
+        android:text="TextView" 
+        android:textColor="#000000"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/desc"
+        android:layout_below="@+id/desc"
+        android:layout_marginLeft="96dp"
+        android:src="@drawable/replyicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton1"
+        android:layout_below="@+id/desc"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:src="@drawable/loopicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:src="@drawable/hearticon" />
+
+</RelativeLayout>
