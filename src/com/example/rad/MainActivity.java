@@ -1,3 +1,6 @@
+$ git tag
+v1.0 
+
 package com.example.rad;
 
 import com.example.pleaseganana.R;
