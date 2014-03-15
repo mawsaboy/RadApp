@@ -1,8 +1,0 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/popup_slots"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/popupbg"
-    android:orientation="vertical" >
- 
-</LinearLayout>
